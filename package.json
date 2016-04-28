@@ -1,6 +1,6 @@
 {
   "name": "sequelize-metaable",
-  "version": "0.0.",
+  "version": "0.0.5",
   "description": "Metadata for Sequelize",
   "main": "index.js",
   "directories": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bonaval/sequelize-temporal.git"
+    "url": "git+https://github.com/asaf050/sequelize-metaable.git"
   },
   "keywords": [
     "sequelize",
@@ -29,10 +29,6 @@
     "lodash": "^3.10.1"
   },
   "devDependencies": {
-    "chai": "^3.4.1",
-    "chai-as-promised": "^5.1.0",
-    "mocha": "^2.3.4",
     "sequelize": "^3.14.2",
-    "sqlite3": "^3.1.1"
   }
 }
