@@ -26,13 +26,13 @@ npm install sequelize-metaable --save
 
 ```
 var Sequelize = require('sequelize');
-var Temporal = require('sequelize-temporal');
+var Metaable = require('sequelize-metaable');
 ```
 
 ### 2) Add the *metaable* feature to your models
 
 ```
-var User = Temporal(sequelize.define('User'), sequelize);
+var UserMeta = Metaable(UserModel, sequelize);
 ```
 ### 2) Set and Get methods
 To Set and Get meta, please use the common Sequelize Relations / Associations methods (Examples coming soon).
