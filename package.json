@@ -1,6 +1,6 @@
 {
   "name": "sequelize-metaable",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Metadata for Sequelize",
   "main": "index.js",
   "directories": {

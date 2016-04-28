@@ -21,8 +21,8 @@ var Metaable = function(model, sequelize, temporalOptions) {
         },
     };
     var modelMetaable = sequelize.define(metaName, metaAttrs);
-    modelMetaable.belongsTo(model, {as: 'metaable'});
-    model.hasMany(modelMetaable, {as: 'metaable'});
+    modelMetaable.belongsTo(model);
+    model.hasMany(modelMetaable);
 
 
     return modelMetaable;
